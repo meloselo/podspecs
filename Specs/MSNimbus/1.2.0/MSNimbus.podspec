@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'Nimbus'
+  s.name     = 'MSNimbus'
   s.version  = '1.2.0'
   s.license  = 'Apache License, Version 2.0'
   s.summary  = 'An iOS framework whose growth is bounded by O(documentation).'
