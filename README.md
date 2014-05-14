@@ -1,0 +1,4 @@
+podspecs
+========
+
+CocoaPod custom specs
