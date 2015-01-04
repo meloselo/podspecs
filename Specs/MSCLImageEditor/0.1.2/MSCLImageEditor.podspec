@@ -26,45 +26,45 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Dev' do |dev|
-    dev.dependency 'CLImageEditor/Core'
+    dev.dependency 'MSCLImageEditor/Core'
     dev.public_header_files = 'CLImageEditor/*/*.h', 'CLImageEditor/ImageTools/ToolSettings/*.h', 'CLImageEditor/ImageTools/CLFilterTool/CLFilterBase.h', 'CLImageEditor/ImageTools/CLEffectTool/CLEffectBase.h'
   end
   
   s.subspec 'AllTools' do |all|
-    all.dependency 'CLImageEditor/Core'
-    all.dependency 'CLImageEditor/StickerTool'
-    all.dependency 'CLImageEditor/EmoticonTool'
-    all.dependency 'CLImageEditor/ResizeTool'
-    all.dependency 'CLImageEditor/TextTool'
-    all.dependency 'CLImageEditor/SplashTool'
+    all.dependency 'MSCLImageEditor/Core'
+    all.dependency 'MSCLImageEditor/StickerTool'
+    all.dependency 'MSCLImageEditor/EmoticonTool'
+    all.dependency 'MSCLImageEditor/ResizeTool'
+    all.dependency 'MSCLImageEditor/TextTool'
+    all.dependency 'MSCLImageEditor/SplashTool'
   end
   
   s.subspec 'StickerTool' do |sub|
-    sub.dependency 'CLImageEditor/Core'
+    sub.dependency 'MSCLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLStickerTool/*.{h,m,mm}'
     sub.private_header_files = 'OptionalImageTools/CLStickerTool/**.h'
   end
   
   s.subspec 'EmoticonTool' do |sub|
-    sub.dependency 'CLImageEditor/Core'
+    sub.dependency 'MSCLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLEmoticonTool/*.{h,m,mm}'
     sub.private_header_files = 'OptionalImageTools/CLEmoticonTool/**.h'
   end
   
   s.subspec 'ResizeTool' do |sub|
-    sub.dependency 'CLImageEditor/Core'
+    sub.dependency 'MSCLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLResizeTool/*.{h,m,mm}'
     sub.private_header_files = 'OptionalImageTools/CLResizeTool/**.h'
   end
   
   s.subspec 'TextTool' do |sub|
-    sub.dependency 'CLImageEditor/Core'
+    sub.dependency 'MSCLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLTextTool/*.{h,m,mm}'
     sub.private_header_files = 'OptionalImageTools/CLTextTool/**.h'
   end
   
   s.subspec 'SplashTool' do |sub|
-    sub.dependency 'CLImageEditor/Core'
+    sub.dependency 'MSCLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLSplashTool/*.{h,m,mm}'
     sub.private_header_files = 'OptionalImageTools/CLSplashTool/**.h'
   end
