@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "CLImageEditor"
+  s.name         = "MSCLImageEditor"
   s.version      = "0.1.2"
   s.summary      = "CLImageEditor provides basic image editing features to iPhone apps."
 
