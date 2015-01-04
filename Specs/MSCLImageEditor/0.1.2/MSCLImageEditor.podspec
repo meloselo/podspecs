@@ -2,11 +2,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "CLImageEditor"
-  s.version      = "ms-v0.1.2.1"
+  s.version      = "0.1.2"
   s.summary      = "CLImageEditor provides basic image editing features to iPhone apps."
 
   s.homepage     = "https://github.com/meloselo/CLImageEditor"
-  s.source       = { :git => "https://github.com/meloselo/CLImageEditor.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/meloselo/CLImageEditor.git", :tag => "ms-v0.1.2.1" }
   
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Sho Yakushiji" => "sho.yakushiji@gmail.com" }
